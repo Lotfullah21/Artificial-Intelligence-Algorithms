@@ -1,31 +1,78 @@
-# Machine Learning Repository
+# Artificial Intelligence Algorithms
 
-Welcome to my machine learning repository! Below is a list of Jupyter notebooks that cover different topics in machine learning. These notebooks were created using Google Colaboratory and were last updated two years ago.
+This repository contains implementations of various artificial intelligence algorithms using Jupyter notebooks. These notebooks are designed to help users understand and explore core concepts in AI, particularly machine learning algorithms. Each notebook focuses on a specific algorithm or neural network concept, with code created using Google Colaboratory.
 
-## 1. Gradient_Descent.ipynb
-- Explore the concept of gradient descent, a fundamental optimization algorithm widely used in machine learning.
+## Table of Contents
 
-## 2. KNN.ipynb
-- Learn about the k-Nearest Neighbors (KNN) algorithm, a simple yet effective method for classification and regression tasks.
+- [Gradient Descent](#gradient-descent)
+- [K-Nearest Neighbors (KNN)](#knn)
+- [Neuron Model](#neuron)
+- [Perceptron](#perceptron)
+- [Weight Initialization](#weight-initialization)
+- [Gradients](#gradients)
+- [Network](#network)
+- [Updated Network](#updated-network)
 
-## 3. Neuron.ipynb
-- Introduction to the basic building block of neural networks: the neuron.
+## Files
 
-## 4. Perceptron.ipynb
-- Delve into the perceptron algorithm, a foundational concept in neural networks and binary classification.
+### 1. Gradient_Descent.ipynb
+- **Description**: Demonstrates the implementation of the Gradient Descent algorithm. This optimization technique is fundamental to many machine learning algorithms, including neural networks.
+- **Contents**: 
+  - Basic gradient descent concepts
+  - Code for minimizing a loss function
+  - Visualizations of the optimization process
 
-## 5. Weight_Initialization.ipynb
-- Discuss the importance of weight initialization in neural networks and explore various methods.
+### 2. KNN.ipynb
+- **Description**: Implementation of the K-Nearest Neighbors (KNN) algorithm, a non-parametric method used for classification and regression.
+- **Contents**:
+  - How to use KNN for classification
+  - Example use cases with small datasets
+  - Evaluation of model accuracy
 
-## 6. grad.ipynb
-- Cover topics related to gradients, possibly further exploring gradient-based optimization techniques.
+### 3. Neuron.ipynb
+- **Description**: Introduction to the concept of a single artificial neuron, the building block of neural networks.
+- **Contents**:
+  - Neuron model implementation
+  - Activation functions such as sigmoid and ReLU
+  - Hands-on code demonstrating neuron computation
 
-## 7. network.ipynb
-- Discuss the architecture and training of a neural network, providing insights into building and training a basic network.
+### 4. Perceptron.ipynb
+- **Description**: Covers the basics of the perceptron, one of the earliest neural network models.
+- **Contents**:
+  - Perceptron learning rule
+  - Binary classification using a perceptron
+  - Training and testing the model on datasets
 
-## 8. updated_network.ipynb
-- Possibly an updated version of the `network.ipynb` file, containing improvements or refinements to the network architecture or training process.
+### 5. Weight_Initialization.ipynb
+- **Description**: Discusses different strategies for initializing the weights of a neural network, an important factor in ensuring the model converges during training.
+- **Contents**:
+  - Various initialization techniques (e.g., Xavier, He initialization)
+  - Impact of initialization on the training process
+  - Code demonstrations
 
-Feel free to explore these notebooks to gain a better understanding of various machine learning concepts. If you have any questions or suggestions, please don't hesitate to reach out!
+### 6. grad.ipynb
+- **Description**: Explores the concept of gradients and their role in optimizing machine learning models.
+- **Contents**:
+  - Gradient computation
+  - Applications of gradients in machine learning
+  - Practical examples and visualizations
 
-**Note:** These notebooks were last updated two years ago, so while the concepts they cover are fundamental, there may have been advancements in the field since then.
+### 7. network.ipynb
+- **Description**: Provides a basic implementation of a neural network with a focus on the forward and backward propagation processes.
+- **Contents**:
+  - Neural network architecture
+  - Forward propagation, backpropagation, and gradient descent
+  - Training and evaluation of the model
+
+### 8. updated_network.ipynb
+- **Description**: An updated and improved version of the neural network model from `network.ipynb`, with added features and optimizations.
+- **Contents**:
+  - Enhanced architecture
+  - Additional layers and activation functions
+  - Better training performance
+
+## Installation and Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Artificial-Intelligence-Algorithms.git
